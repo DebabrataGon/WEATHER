@@ -1,0 +1,11 @@
+
+let cloud_pct=document.getElementbyID(cloud_pct)
+let temp=document.getElementbyID(temp)
+let feels_like=document.getElementbyID(feels_like)
+let humidity=document.getElementbyID(humidity)
+let min_temp=document.getElementbyID(min_temp)
+let max_temp=document.getElementbyID(max_temp)
+let wind_speed=document.getElementbyID(wind_speed)
+let wind_degrees=document.getElementbyID(wind_degrees)
+let sunrise=document.getElementbyID(sunrise)
+let sunset=document.getElementbyID(sunset)
