@@ -93,9 +93,9 @@ async function getw(tr)
 
 }
 
-getweather("Delhi");
-
-var tr = body.getElementsByTagName("tr");
+getweather("Bardhaman");
+let Body=document.querySelector("#Body");
+let tr = Body.getElementsByTagName("tr");
 for (var i = 0; i < tr.length; i++) 
 {
 	getw(tr[i]);
@@ -103,6 +103,7 @@ for (var i = 0; i < tr.length; i++)
 
 submit.addEventListener("click", (e) => {
 	e.preventDefault();
+	city=document.querySelector("#city");
 	getweather(city.value);
 })
 
