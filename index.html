@@ -13,11 +13,11 @@
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Weather Details</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      <a class="navbar-brand" href="#details">Weather Details</a>
+      <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button>-->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -31,8 +31,8 @@
               Location
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Seattle</a></li>
-              <li><a class="dropdown-item" href="#">Delhi</a></li>
+              <li><a class="dropdown-item" href="#Weather-Table">Delhi</a></li>
+              <li><a class="dropdown-item" href="#Weather-Table">Mumbai</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -51,7 +51,7 @@
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container" id="details">
     <h1 style="text-align:center">Weather for <span id="cityName"></span></h1>
     <main>
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -108,7 +108,7 @@
         </div>
       </div>
 
-      <h2 class="display-6 text-center mb-4">Weather of other places</h2>
+      <h2 class="display-6 text-center mb-4" id="Weather-Table">Weather of other places</h2>
 
       <div class="table-responsive">
         <table class="table text-center">
